@@ -22,7 +22,7 @@ class DivideEmBloc extends Bloc<DivideEmEvent, DivideEmState> {
     _timer?.cancel();
 
     final random = Random();
-    int targetSum = random.nextInt(20) + 1;
+    int targetSum = random.nextInt(100) + 1;
 
     List<ButtonModel> buttons = List.generate(
       100,
